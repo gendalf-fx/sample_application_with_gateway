@@ -1,0 +1,10 @@
+server:
+  port: ${PORT:8080}
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: reader
+        uri: http://localhost:8081
+        predicates:
+        - Method=GET

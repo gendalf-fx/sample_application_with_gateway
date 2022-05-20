@@ -1,13 +1,13 @@
-package com.gendalf.gendalfgateway;
+package com.gendalf.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GendalfGatewayApplication {
+public class GatewayApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(GendalfGatewayApplication.class, args);
+        SpringApplication.run(GatewayApplication.class, args);
     }
 
 }
