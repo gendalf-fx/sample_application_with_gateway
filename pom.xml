@@ -42,7 +42,7 @@
 
         <!--        Docker credentials-->
         <docker.username>gendalffx</docker.username>
-        <docker.password>7250674Awp$</docker.password>
+        <docker.password>gendalfdocker</docker.password>
     </properties>
 
     <dependencyManagement>
