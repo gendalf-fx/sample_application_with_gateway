@@ -40,7 +40,8 @@
         <maven-jar-plugin.version>3.1.2</maven-jar-plugin.version>
 
         <!--        Docker credentials-->
-
+        <docker.username>gendalffx</docker.username>
+        <docker.password>7250674Awp$</docker.password>
     </properties>
 
     <dependencyManagement>
