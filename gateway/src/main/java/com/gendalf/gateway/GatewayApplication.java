@@ -19,6 +19,8 @@ public class GatewayApplication {
         return builder.routes()
             .route(r -> r.method(HttpMethod.GET)
                 .uri("http://localhost:8081/reader/news"))
+            .route(r -> r.method(HttpMethod.POST, HttpMethod.PUT, HttpMethod.PATCH, HttpMethod.DELETE)
+                .uri("http://localhost:8082/writer/news"))
             .build();
     }
 

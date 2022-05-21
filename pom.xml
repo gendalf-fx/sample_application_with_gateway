@@ -13,6 +13,7 @@
     <modules>
         <module>reader</module>
         <module>gateway</module>
+        <module>writer</module>
     </modules>
 
     <properties>
